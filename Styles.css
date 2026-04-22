@@ -830,10 +830,14 @@ p {
     padding: 12px;
     border-radius: 25px;
     font-size: 13px;
-    margin-top: 90px;
+    margin-top: auto;   
 }
 
-
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 
 
 /* ______________________ */

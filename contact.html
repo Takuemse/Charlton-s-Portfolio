@@ -31,78 +31,73 @@
                 <br>I'd be glad to hear from you.
             </p>
         </div>    
-
-        <div class="formcontainer">
-            <div class="details">
-                <h3>Get in touch</h3>
-                <div class="emailcon">
-                    <div class="iconcontainer">
-                        <a href="mailto:lensocharlton63@gmail.com" class="emcon">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                    </div>
-                    <div class="my-email">
-                        <p>Email: 
-                            <br><a href="mailto:lensocharlton63@gmail.com?Subject=From%20your%20portfolio">lensocharlton63@gmail.com</a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="location">
-                    <div class="iconcontainer">
-                        <span class="locicon"><i class="fas fa-location"></i></span>
-                    </div>
-                    <div class="my-location">
-                        <p>Location: 
-                            <br><span class="loc">Zimbabwe, Harare</span>
-                        </p>
-                    </div>
-                </div>
-                
-
-                <div class="pillicon">
-                    <div class="smalltext">
-                        <p>You can also find me on: <br><br> <span class="num">Phone Number:</span> +263 788 326 860</p>
-                    </div>
-                    <div class="btns" >
-                        <a href="https://www.linkedin.com/in/charlton-lenso-1678353ab/" target="_blank"><button class="ebtns">LinkedIn</button></a>
-                        <a href="https://github.com/Charlton-Lenso2" target="_blank"><button class="ebtns">Github</button></a>
-                    </div>
-                </div>
+<div class="formcontainer">
+    <div class="details">
+        <h3>Get in touch</h3>
+        <div class="emailcon">
+            <div class="iconcontainer">
+                <a href="mailto:lensocharlton63@gmail.com" class="emcon">
+                    <i class="fas fa-envelope"></i>
+                </a>
             </div>
-                
-            <!-- form -->
+            <div class="my-email">
+                <p>Email: 
+                    <br><a href="mailto:lensocharlton63@gmail.com?Subject=From%20your%20portfolio">lensocharlton63@gmail.com</a>
+                </p>
+            </div>
+        </div>
 
-                <div class="contact-form">
-                    <h3>Send a message</h3>
+        <div class="location">
+            <div class="iconcontainer">
+                <span class="locicon"><i class="fas fa-location"></i></span>
+            </div>
+            <div class="my-location">
+                <p>Location: 
+                    <br><span class="loc">Zimbabwe, Harare</span>
+                </p>
+            </div>
+        </div>
 
-                    <div class="form-row">
-                        <div class="field">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" placeholder="Your name">
-                        </div>
-
-                        <div class="field">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="your@email.com">
-                        </div>
-                    </div>
-
-                     <div class="field">
-                        <label for="subject">Subject</label>
-                            <input type="text" id="subject" placeholder="What's this about?">
-                    </div>
-
-                    <div class="field">
-                        <label for="message">Message</label>
-                            <textarea id="message" rows="5" placeholder="Write your message here..."></textarea>
-                    </div>
-
-                    <button class="button send-btn">Send Message</button>
-                </div>
-        </div>        
+        <div class="pillicon">
+            <div class="smalltext">
+                <p>You can also find me on: <br><br> <span class="num">Phone Number:</span> +263 788 326 860</p>
+            </div>
+            <div class="btns">
+                <a href="https://www.linkedin.com/in/charlton-lenso-1678353ab/" target="_blank"><button class="ebtns">LinkedIn</button></a>
+                <a href="https://github.com/Charlton-Lenso2" target="_blank"><button class="ebtns">Github</button></a>
+            </div>
+        </div>
     </div>
 
+    <!-- form -->
+    <form class="contact-form" action="https://formspree.io/f/xvzdvalk" method="POST">
+        <h3>Send a message</h3>
+
+        <div class="form-row">
+            <div class="field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+
+            <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+            </div>
+        </div>
+
+        <div class="field">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+        </div>
+
+        <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
+
+        <button type="submit" class="button send-btn">Send Message</button>
+    </form>
+</div>
 
 
     <!-- footer -->
