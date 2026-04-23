@@ -115,9 +115,10 @@ p {
 }
 
 .picture img{
-    border-radius: 15px;
+    border-radius: 30px;
     width: 100%;
-    max-width: 100%;           
+    max-width: 100%; 
+    padding: 10px;          
 }
 
 
@@ -965,6 +966,7 @@ p {
     .picture img {
         width: 100%;
         max-width: 400px;
+        height: auto;
     }
 
     .text {
